@@ -1,5 +1,5 @@
-// src/app/projects/page.tsx
-import './page.css'; // Import the Tailwind CSS file
+
+import './page.css'; 
 
 interface Project {
   title: string;
@@ -21,7 +21,7 @@ const projects: Project[] = [
     link: 'https://github.com/yourusername/project-two',
     technologies: ['React', 'Node.js', 'MongoDB'],
   },
-  //  to Add more projects here 
+  //  to Add more projects here isA
 ];
 
 export default function ProjectsPage() {

@@ -1,6 +1,4 @@
-/* src/app/globals.css */
 
-/* Import Tailwind's base styles, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -34,7 +32,8 @@ button {
   @apply bg-teal text-white hover:bg-blue;
 }
 
-/* Utility Classes */
+
+
 .border-custom {
   border-color: var(--color-light-slate-gray);
 }
@@ -44,8 +43,8 @@ button {
 }
 
 .ring-custom {
-/* Apply ring properties manually using CSS custom properties */
-box-shadow: 0 0 0 2px var(--color-semi-transparent-blue), 0 0 0 4px var(--color-white);
+  
+  box-shadow: 0 0 0 2px var(--color-semi-transparent-blue), 0 0 0 4px var(--color-white);
 }
 
 .bg-custom-light {
@@ -72,4 +71,38 @@ box-shadow: 0 0 0 2px var(--color-semi-transparent-blue), 0 0 0 4px var(--color-
   background-color: var(--color-dark-slate-blue);
 }
 
-/* Customize Tailwind classes with your palette as needed */
+/* Home Page */
+.home-container {
+  @apply min-h-screen flex flex-col bg-dark-slate-blue;
+}
+
+.hero-section {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gradient-custom text-center p-8;
+}
+
+.hero-content {
+  @apply max-w-3xl mx-auto;
+}
+
+.cta-button {
+  @apply inline-block px-6 py-3 mt-6 text-lg font-semibold text-white bg-teal rounded-full transition-transform transform hover:scale-105;
+}
+
+.projects-preview {
+  @apply py-16 px-8 bg-dark-slate-blue text-center;
+}
+
+.footer {
+  @apply py-4 bg-dark-slate-blue text-center;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    @apply p-6;
+  }
+
+  .cta-button {
+    @apply px-4 py-2 text-base;
+  }
+}

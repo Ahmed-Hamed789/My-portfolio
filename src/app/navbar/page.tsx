@@ -1,4 +1,4 @@
-// src/app/navbar/Navbar.tsx
+
 import './page.css';
 import Link from 'next/link';
 

@@ -1,4 +1,4 @@
-/* src/app/projects/page.css */
+
 
 .projects-container {
     @apply min-h-screen flex flex-col items-center bg-dark-slate-blue p-6;

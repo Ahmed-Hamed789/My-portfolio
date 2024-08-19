@@ -1,6 +1,6 @@
-"use client"; // Ensure this file is treated as a Client Component
+"use client"; 
 
-import './page.css'; // Import the Tailwind CSS file
+import './page.css'; 
 
 export default function ContactPage() {
   return (

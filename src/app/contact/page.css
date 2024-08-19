@@ -1,4 +1,4 @@
-/* src/app/contact/page.css */
+
 .contact-container {
     @apply min-h-screen flex flex-col items-center justify-center bg-dark-slate-blue p-6;
   }
