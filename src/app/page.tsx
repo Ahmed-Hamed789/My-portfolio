@@ -25,7 +25,7 @@ export default function Home() {
       </section>
       <footer className="footer">
         <p className="text-sm text-light-slate-gray">
-          &copy; {new Date().getFullYear()} Hamed. All rights reserved.
+          &copy; {new Date().getFullYear()} Ahmed Hamed. All rights reserved.
         </p>
       </footer>
     </div>
