@@ -25,7 +25,7 @@ export default function ContactPage() {
         </div>
         <div className="detail-item">
           <h2 className="text-xl font-semibold text-white">GitHub</h2>
-          <a href="https://github.com/yourusername" className="text-teal hover:underline">github.com/yourusername</a>
+          <a href="https://github.com/Ahmed-Hamed789" className="text-teal hover:underline">GitHub Profile </a>
         </div>
         <div className="detail-item">
           <h2 className="text-xl font-semibold text-white">University Info</h2>
