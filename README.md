@@ -1,0 +1,2 @@
+# My-portfolio
+ A modern and professional portfolio website showcasing a software engineering student's skills, projects, and experience. Built with Next.js, TypeScript, and Tailwind CSS, this project demonstrates a sleek design with a focus on user experience and visual appeal. The site includes sections for Home, About Me, Contact Me, Projects, and Experience, each styled with a carefully chosen color palette to create a cohesive and attractive online presence.
