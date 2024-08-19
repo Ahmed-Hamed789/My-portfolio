@@ -1,0 +1,30 @@
+/* src/app/projects/page.css */
+
+.projects-container {
+    @apply min-h-screen flex flex-col items-center bg-dark-slate-blue p-6;
+  }
+  
+  .projects-list {
+    @apply max-w-4xl w-full;
+  }
+  
+  .project-card {
+    @apply rounded-lg border bg-transparent transition-shadow hover:shadow-2xl;
+  }
+  
+  .project-card h2 {
+    @apply text-2xl font-semibold bg-transparent;
+  }
+  
+  .project-card p {
+    @apply mt-2 bg-transparent;
+  }
+  
+  .project-card a {
+    @apply text-blue hover:bg-teal;
+  }
+  
+  .project-card ul {
+    @apply list-disc pl-5 mt-2 bg-transparent;
+  }
+  
