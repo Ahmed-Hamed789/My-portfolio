@@ -1,0 +1,29 @@
+/* src/app/contact/page.css */
+.contact-container {
+    @apply min-h-screen flex flex-col items-center justify-center bg-dark-slate-blue p-6;
+  }
+  
+  h1 {
+    @apply mb-6 text-center;
+  }
+  
+  .contact-details {
+    @apply w-full max-w-4xl bg-dark-slate-blue p-8 rounded-lg shadow-lg;
+  }
+  
+  .detail-item {
+    @apply mb-4;
+  }
+  
+  .detail-item h2 {
+    @apply text-xl font-semibold bg-transparent;
+  }
+  
+  .detail-item p, .detail-item a {
+    @apply bg-transparent mt-2;
+  }
+  
+  .detail-item a {
+    @apply bg-transparent hover:underline;
+  }
+  

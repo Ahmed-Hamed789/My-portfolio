@@ -1,0 +1,33 @@
+/* src/app/experience/page.css */
+.experience-container {
+    @apply min-h-screen flex flex-col items-center justify-center bg-very-light-slate-blue p-6;
+  }
+  
+  h1 {
+    @apply mb-8 text-center;
+  }
+  
+  .experience-list {
+    @apply w-full max-w-4xl bg-dark-slate-blue;
+  }
+  
+  .experience-item {
+    @apply mb-6 border-b border-teal pb-4;
+  }
+  
+  .experience-item:last-of-type {
+    @apply border-none;
+  }
+  
+  .experience-item h2 {
+    @apply text-2xl font-semibold bg-transparent;
+  }
+  
+  .experience-item p {
+    @apply bg-transparent mt-1;
+  }
+  
+  .experience-item ul {
+    @apply list-disc ml-6 mt-2 bg-transparent;
+  }
+  

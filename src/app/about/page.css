@@ -1,0 +1,13 @@
+/* src/app/about/page.css */
+.about-container {
+    @apply min-h-screen flex flex-col items-center justify-center bg-very-light-slate-blue p-6;
+  }
+  
+  h1 {
+    @apply mb-4;
+  }
+  
+  p {
+    @apply mb-4;
+  }
+  

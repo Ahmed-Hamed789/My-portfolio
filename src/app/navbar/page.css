@@ -1,0 +1,22 @@
+/* src/app/navbar/Navbar.css */
+
+.navbar {
+    @apply bg-dark-slate-blue py-4 shadow-md;
+  }
+  
+  .navbar-container {
+    @apply max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8;
+  }
+  
+  .navbar-logo {
+    @apply flex items-center;
+  }
+  
+  .navbar-links {
+    @apply flex space-x-4;
+  }
+  
+  .navbar-link {
+    @apply text-gray hover:text-teal text-lg font-medium;
+  }
+  

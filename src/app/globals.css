@@ -1,0 +1,75 @@
+/* src/app/globals.css */
+
+/* Import Tailwind's base styles, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Colors */
+:root {
+  --color-light-slate-gray: #e5e7eb;
+  --color-gray: #9ca3af;
+  --color-white: #fff;
+  --color-blue: #3b82f6;
+  --color-teal: #2dd4bf;
+  --color-semi-transparent-blue: rgba(59,130,246,0.5);
+  --color-very-light-slate-blue: rgba(15,23,42,0.1);
+  --color-medium-slate-blue: rgba(15,23,42,0.75);
+  --color-very-light-teal: rgba(45,212,191,0.1);
+  --color-dark-charcoal: rgba(24,24,27,0.3);
+  --color-slate: rgb(71,85,105/1);
+  --color-dark-slate-blue: rgb(15,23,42/1);
+}
+
+/* Global Styles */
+body {
+  @apply bg-dark-slate-blue text-white font-sans;
+}
+
+a {
+  @apply bg-dark-slate-blue text-white ;
+}
+
+button {
+  @apply bg-teal text-white hover:bg-blue;
+}
+
+/* Utility Classes */
+.border-custom {
+  border-color: var(--color-light-slate-gray);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(to right, var(--color-teal), var(--color-blue));
+}
+
+.ring-custom {
+/* Apply ring properties manually using CSS custom properties */
+box-shadow: 0 0 0 2px var(--color-semi-transparent-blue), 0 0 0 4px var(--color-white);
+}
+
+.bg-custom-light {
+  background-color: var(--color-very-light-slate-blue);
+}
+
+.bg-custom-dark {
+  background-color: var(--color-medium-slate-blue);
+}
+
+.bg-custom-teal {
+  background-color: var(--color-very-light-teal);
+}
+
+.border-dark-charcoal {
+  border-color: var(--color-dark-charcoal);
+}
+
+.bg-slate {
+  background-color: var(--color-slate);
+}
+
+.bg-dark-slate {
+  background-color: var(--color-dark-slate-blue);
+}
+
+/* Customize Tailwind classes with your palette as needed */
